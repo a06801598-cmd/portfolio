@@ -299,6 +299,11 @@
     cursor: pointer;
   }
   .project-card:hover { border-color: var(--accent3); transform: translateY(-4px); }
+  a.project-card {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+  }
   .project-thumb {
     width: 100%; height: 160px; object-fit: cover;
     background: linear-gradient(135deg, #1e2540, #2a1e40);
@@ -678,9 +683,9 @@
   <button class="mob-nav-item active" data-page="landing" onclick="navigate('landing');closeMenu()">✦ Landing</button>
   <button class="mob-nav-item" data-page="home" onclick="navigate('home');closeMenu()">⌂ Home</button>
   <button class="mob-nav-item" data-page="about" onclick="navigate('about');closeMenu()">◉ About</button>
-  <button class="mob-nav-item" data-page="photos" onclick="navigate('photos');closeMenu()">◫ Photos</button>
+ <!-- <button class="mob-nav-item" data-page="photos" onclick="navigate('photos');closeMenu()">◫ Photos</button>
   <button class="mob-nav-item" data-page="videos" onclick="navigate('videos');closeMenu()">▶ Videos</button>
-  <button class="mob-nav-item" data-page="music" onclick="navigate('music');closeMenu()">♪ Music</button>
+  <button class="mob-nav-item" data-page="music" onclick="navigate('music');closeMenu()">♪ Music</button> --->
   <button class="mob-nav-item" data-page="contact" onclick="navigate('contact');closeMenu()">◎ Contact</button>
   <button class="mob-nav-item" data-page="settings" onclick="navigate('settings');closeMenu()">⚙ Settings</button>
   <button class="mob-nav-item" onclick="toggleTheme();closeMenu()">☽ Toggle Theme</button>
@@ -737,7 +742,7 @@
             <span class="chip">Python</span><span class="chip">Image Recognition</span><span class="chip">Web</span>
           </div>
         </div>
-        <div class="project-card">
+        <a class="project-card" href="https://a06801598-cmd.github.io/resume-/resume-builder" target="_blank" rel="noopener">
           <div class="project-thumb">📄</div>
           <div class="project-body">
             <div class="project-tag">Web App</div>
@@ -747,7 +752,7 @@
           <div class="project-footer">
             <span class="chip">HTML</span><span class="chip">JS</span><span class="chip">Firebase</span>
           </div>
-        </div>
+        </a>
         <div class="project-card">
           <div class="project-thumb">🖼️</div>
           <div class="project-body">
@@ -759,7 +764,7 @@
             <span class="chip">HTML</span><span class="chip">CSS</span><span class="chip">Canvas</span>
           </div>
         </div>
-        <div class="project-card">
+        <a class="project-card" href="https://jsphbrv.github.io/Valentine-s-Card/tryhaha" target="_blank" rel="noopener">
           <div class="project-thumb">💌</div>
           <div class="project-body">
             <div class="project-tag">Animation</div>
@@ -769,7 +774,51 @@
           <div class="project-footer">
             <span class="chip">HTML</span><span class="chip">CSS</span><span class="chip">JS</span>
           </div>
-        </div>
+        </a>
+        <a class="project-card" href="https://a06801598-cmd.github.io/valentines/card" target="_blank" rel="noopener">
+          <div class="project-thumb">💝</div>
+          <div class="project-body">
+            <div class="project-tag">Animation</div>
+            <div class="project-name">Valentine's Card</div>
+            <div class="project-desc">A companion Valentine's-themed web card with its own animated layout and message reveal.</div>
+          </div>
+          <div class="project-footer">
+            <span class="chip">HTML</span><span class="chip">CSS</span><span class="chip">JS</span>
+          </div>
+        </a>
+        <a class="project-card" href="https://jsphbrv.github.io/selenur/birthday" target="_blank" rel="noopener">
+          <div class="project-thumb">🎂</div>
+          <div class="project-body">
+            <div class="project-tag">Animation</div>
+            <div class="project-name">Birthday Web</div>
+            <div class="project-desc">A personalized animated birthday greeting site with interactive effects.</div>
+          </div>
+          <div class="project-footer">
+            <span class="chip">HTML</span><span class="chip">CSS</span><span class="chip">JS</span>
+          </div>
+        </a>
+        <a class="project-card" href="https://jsphbrv.github.io/product-/product#contact" target="_blank" rel="noopener">
+          <div class="project-thumb">🛍️</div>
+          <div class="project-body">
+            <div class="project-tag">Web App</div>
+            <div class="project-name">Product Landing Page</div>
+            <div class="project-desc">A responsive product landing page with a dedicated contact section.</div>
+          </div>
+          <div class="project-footer">
+            <span class="chip">HTML</span><span class="chip">CSS</span><span class="chip">JS</span>
+          </div>
+        </a>
+        <a class="project-card" href="https://a06801598-cmd.github.io/calculator/calculator" target="_blank" rel="noopener">
+          <div class="project-thumb">🧮</div>
+          <div class="project-body">
+            <div class="project-tag">Creative</div>
+            <div class="project-name">CalcPro</div>
+            <div class="project-desc">A fully functional-looking calculator web app with a playful hidden twist built in as a prank for friends.</div>
+          </div>
+          <div class="project-footer">
+            <span class="chip">HTML</span><span class="chip">CSS</span><span class="chip">JS</span>
+          </div>
+        </a>
       </div>
     </div>
   </section>
